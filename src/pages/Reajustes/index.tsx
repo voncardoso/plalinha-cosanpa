@@ -46,9 +46,10 @@ export function Reajustes(){
             return(
                 <TableRegister>
                 <thead>
-                        <th className="fistTd">Nº</th>
-                        <th className="contract_id">Contrato</th>
+                        <th className="fistTd"></th>
+                        <th className="contract_id">Nº</th>
                         <th>Objeto</th>
+                        <th>Contrato</th>
                         <th>Aditivo</th>
                         <th>Total Contratado</th>
                         <th>Reequilibrio</th>
@@ -58,7 +59,6 @@ export function Reajustes(){
                         <th>Custo Total</th>
                         <th>Meidido</th>
                         <th>Saldo a medir</th>
-                        <th>teste</th>
                 </thead>
 
                 <tbody>
@@ -72,6 +72,7 @@ export function Reajustes(){
                                     <td className="ObjetoTd">
                                        {item.contract_object}
                                     </td>
+                                    <td>{561651651}</td>
                                     <td>{item.contract_value}</td>
                                     <td>{item.additive_value}</td>
                                     <td>{15156165}</td>
@@ -81,13 +82,11 @@ export function Reajustes(){
                                     <td>{554464646846464}</td>
                                     <td>{1561651}</td>
                                     <td>{item.payment}</td>
-                                    <td>{561651651}</td>
                                 </tr>
                             </>
                        )
                     })}
                 </tbody>
-                <tr className="totais"><td>Totais</td></tr>
                 </TableRegister> 
                 )
         })}
