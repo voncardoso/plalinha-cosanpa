@@ -1,4 +1,8 @@
+import { useEffect } from "react";
 import { HomeContainer, HomeHeader, HomeHeaderSection, HomeSection, HomeTableSection, HomeTableTbody, HomeTableThead, HomeTableTheadTotal, HomeTitleTable } from "./style";
+
+
+
 export function Obra(){
     return(
         <HomeContainer>
